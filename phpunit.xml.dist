@@ -11,7 +11,7 @@
          bootstrap="./vendor/autoload.php"
 >
     <testsuites>
-        <testsuite name="CorsServiceProvider">
+        <testsuite name="SearchServiceProvider">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
