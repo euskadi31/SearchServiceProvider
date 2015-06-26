@@ -1,0 +1,29 @@
+{
+    "name": "euskadi31/search-service-provider",
+    "description": "A Search Service Provider for Silex 2.0",
+    "type": "library",
+    "require": {
+        "silex/silex": "~2.0@dev",
+        "euskadi31/search-php": "~0.1.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7",
+        "leaphub/phpcs-symfony2-standard": "~2.0.1",
+        "euskadi31/cache-service-provider": "~1.0"
+    },
+    "suggest": {
+        "euskadi31/cache-service-provider": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Etcheverry",
+            "email": "axel@etcheverry.biz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Euskadi31\\Silex\\": "src/"
+        }
+    }
+}
